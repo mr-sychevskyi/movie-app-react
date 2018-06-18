@@ -5,7 +5,7 @@
 
 * npm run start:dev
 
-* go to localhost:8080
+* localhost:8080
 
 **Technologies:**
 * React, Redux, ESlint
