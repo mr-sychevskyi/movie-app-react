@@ -1,0 +1,119 @@
+main-bg-color = #fafafa
+
+btn-main-color = #666
+btn-main-hover-color = #90A4AE
+btn-trash-hover-color = #d23f31
+
+btn-add-color = #fff
+btn-add-bg-color = #d23f31
+btn-add-shadow-color = rgba(0, 0, 0, 0.16)
+btn-add-hover-color = rgba(100, 100, 100, 1)
+
+darkred-color = #d23f31
+grey-color = #777
+dark-color = #333
+
+// Common
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+
+html
+body
+  height 100%
+
+body-font-size = 14px
+
+body
+  font-family 'Roboto', 'Arial', sans-serif
+  font-size body-font-size
+  font-weight 400
+
+  letter-spacing 1px
+  line-height 1.2
+
+a
+button
+input
+textarea
+  outline none
+
+button
+  cursor pointer
+  transition all .4s
+
+ol
+ul
+  list-style none
+
+.app
+  display flex
+  min-height 100vh
+  flex-direction column
+
+  background-color main-bg-color
+
+.route-notfound
+  color darkred-color
+
+.info-title
+  color grey-color
+
+// Buttons
+.btn
+  display inline-flex
+  align-items center
+  cursor pointer
+  text-decoration none
+  transition all .4s
+
+.btn-add
+  position fixed
+  bottom 20px
+  right 20px
+  padding 20px
+
+  color btn-add-color
+  background-color btn-add-bg-color
+  border-radius 50%
+  box-shadow 0 3px 6px 0 btn-add-shadow-color
+  z-index 100
+
+.btn-add:hover
+  box-shadow 0 0 4px 4px btn-add-hover-color
+
+.btn-close:hover
+  transform rotate(90deg)
+
+.btn-trash
+.btn-sort
+  color btn-main-color
+  font-weight 600
+  text-transform uppercase
+
+.btn-trash i
+.btn-sort i
+  margin-left 5px
+
+.btn-trash:hover
+  color btn-trash-hover-color
+
+.btn-sort:hover
+  i
+  span
+    color btn-main-hover-color
+
+.btn-file
+  color dark-color
+  font-size 14px
+  font-weight 600
+  text-transform uppercase
+
+.btn-file i
+  margin-left 5px
+
+.btn-file:hover
+  i
+  span
+    color btn-main-hover-color

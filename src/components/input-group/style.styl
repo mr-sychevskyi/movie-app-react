@@ -1,0 +1,20 @@
+form-group-placeholder-color = #666
+
+.form-group__input
+    flex-basis 85%
+    border none
+    -webkit-appearance none
+    -moz-appearance none
+    appearance none
+
+    &::placeholder
+    &-webkit-input-placeholder
+      font-family 'Roboto', sans-serif
+      font-size 13px
+      letter-spacing normal
+      color form-group-placeholder-color
+
+    &[type=number]::-webkit-inner-spin-button
+    &[type=number]::-webkit-outer-spin-button
+      -webkit-appearance none
+

@@ -1,0 +1,31 @@
+movie-border-color = #ccc
+movie-group-title-color = #666
+movie-group-body-bg-color = #fff
+
+.movies
+  &__controls
+    display flex
+    align-items center
+    justify-content space-between
+    padding 0 20px
+
+  &__title
+    color movie-group-title-color
+    font-size 24px
+    font-weight 600
+    text-transform uppercase
+    letter-spacing normal
+
+  &__list
+    margin-top 12px
+
+    box-shadow 0 3px 6px 0 rgba(0, 0, 0, .16)
+    background-color movie-group-body-bg-color
+    border 1px solid movie-border-color
+
+    li:not(:first-child)
+      border-top 1px solid movie-border-color
+
+  &:not(:first-child)
+    margin-top: 25px
+

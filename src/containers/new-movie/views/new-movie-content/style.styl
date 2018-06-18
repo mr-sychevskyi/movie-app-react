@@ -1,0 +1,28 @@
+form-group-label-color = #333
+form-group-border-color = #454545
+form-group-placeholder-color = #666
+
+.form-group
+  display flex
+  padding 12px 25px
+  text-align left
+
+  &__label
+    flex-basis 15%
+    font-size 13px
+    letter-spacing normal
+    color form-group-label-color
+
+  &__textarea
+    width 100%
+    resize none
+    border none
+
+  &__textarea::placeholder
+    font-family 'Roboto', sans-serif
+    font-size 13px
+    letter-spacing normal
+    color form-group-placeholder-color
+
+  &-border-top
+    border-top 1px solid form-group-border-color
