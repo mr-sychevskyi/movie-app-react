@@ -10,4 +10,4 @@
 * localhost:8080
 
 **Technologies:**
-* ES6, React, Redux, ESlint
+* ES6, React, Redux, ESlint, MongoDB
