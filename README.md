@@ -1,6 +1,6 @@
 # Movie App
 
-**Demo:** [Heroku](https://movie-app-react.herokuapp.com)
+**Demo:** [Netlify](https://movie-app-react.netlify.com/movies)
 
 **To run this app locally:**
 * npm install
